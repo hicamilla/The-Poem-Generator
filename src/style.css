@@ -1,0 +1,109 @@
+body{
+    background-color: #f8eae0;
+    color: #6d4c41;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    color: #6d4c41;
+    font-weight: 600;
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 25px;
+    color: #b45f41;
+    font-family: "Crimson Pro", serif;
+    font-style: italic;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5;
+}
+
+form{
+    padding: 35px;
+    display: flex;
+}
+
+.instructions{
+    padding:15px;
+    border: none;
+    border-radius: 7px;
+    font-size: 17px;
+    font-style: italic;
+    font-family: "Crimson Pro", serif;
+    color:#bf9000;
+    width: 80%;
+}
+
+.submit-button{
+    background-color: #e19ea0;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 15px 24px;
+}
+
+.submit-button:hover {
+    background-color: #c26a67
+}
+
+.poem{
+    font-size: 20px;
+    background-color: #be8c6835;
+    font-family: "Crimson Pro", serif;
+    font-style: italic;
+    line-height: 1.5;
+    border-left: 3px solid #b45f41;
+    box-shadow: 0 4px 30px rgba(39, 33, 66, 0.03);
+    border-radius: 15px;
+    padding: 40px;
+}
+
+footer {
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 45px;
+    text-align: center;
+}
+
+a {
+    color: #bf9000;
+    text-decoration: none;
+}
+        
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* colors 
+    --background-color: #fff6f2;  Creamy white
+    --text-color: #5c3d31; Dark brown 
+    --header-color: #b45f41; Rusty orange
+    --link-color: #946c5c; Soft brown
+    --link-hover-color: #7e5546; Darker brown
+    --poem-color: #7e645e; Warm gray
+    --footer-color: #d9a57e; Light peach

@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="The-Poem-Generator/src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
     <title>Poetopia</title>
 </head>
 <body>
+    <div class="container">
     <header>
         <h1>Poetopia</h1>
         <h2>Here, you can create poetry for your soul.</h2>
@@ -17,8 +23,10 @@
             <input type="text" placeholder="Enter the topic of the poem" 
             autofocus 
             required 
-            autocomplete="off"/>
-            <input type="submit" /></input>
+            autocomplete="off"
+            class="instructions"
+            />
+            <input type="submit" class="submit-button"/></input>
         </form>
 
         <div>
@@ -32,7 +40,8 @@
     <footer>
     This AI project was coded by me, <a href="https://www.linkedin.com/in/camillascardoso/">Camilla</a>, and is open-source on <a href="https://github.com/hicamilla">GitHub</a> and hosted on <a href="https://poetopia.netlify.app">Netlify</a>.
     </footer>
+    </div>
 
-    <script src="The-Poem-Generator/src/index.js"></script>
+    <script src="src/index.js"></script>
 </body>
 </html>
