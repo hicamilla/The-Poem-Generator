@@ -70,6 +70,7 @@ form{
 .poem{
     font-size: 20px;
     background-color: #be8c6835;
+    color: #7e645e;
     font-family: "Crimson Pro", serif;
     font-style: italic;
     line-height: 1.5;
@@ -77,6 +78,10 @@ form{
     box-shadow: 0 4px 30px rgba(39, 33, 66, 0.03);
     border-radius: 15px;
     padding: 40px;
+}
+
+.poem strong{
+    color: #bf9000;
 }
 
 footer {
