@@ -1,3 +1,4 @@
+//api to typewrite the poem//
 function displayPoem(response) {
     console.log("poem generated");
     new Typewriter('#poem', {
@@ -8,7 +9,7 @@ function displayPoem(response) {
 });
     
 }
-
+//instructions to generate the poem//
 function generatePoem(event) {
     event.preventDefault();
 
@@ -18,6 +19,10 @@ function generatePoem(event) {
     let prompt = `User instructions: Show a poem written by women about ${instructionsInput.value}`
     let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+
+    let poemElement = document.querySelector("#poem");
+    poemElement.classList.remove("hidden");
+    poemElement.innerHTML = `<div class="blink">Generating a poem for your...</div>`;
     console.log("Generating poem");
     console.log(`Promt: ${prompt}`);
     console.log(`Context: ${context}`);

@@ -15,12 +15,14 @@
     <div class="container">
     <header>
         <h1>Poetopia</h1>
-        <h2>Here, you can create poetry for your soul.</h2>
+        <h2>Empowering Voices: Celebrating the Poetry of Women</h2>
+    <!--<p>Soulful poetry, tailored to you. Enter a keyword, receive a poem.</p>-->
     </header>
 
     <main>
+        <div class="form-container">
         <form id="poem-generator-form">
-            <input type="text" placeholder="Enter the topic of the poem" 
+            <input type="text" placeholder="Keyword in, women's poetry out..." 
             autofocus 
             required 
             autocomplete="off"
@@ -29,8 +31,10 @@
             />
             <input type="submit" class="submit-button"/></input>
         </form>
+        <div class="hint"> Type a keyword like 'Life' or 'Future' and receive a poem written by woman's.</div>
+        </div>
 
-        <div class="poem" id="poem"></div>
+        <div class="poem hidden" id="poem"></div>
         
     </main>
 

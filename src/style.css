@@ -33,9 +33,22 @@ h2{
     text-align: center;
     line-height: 1.5;
 }
+/*text for the hint to the search*/
+.form-container{
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.hint{
+    line-height: 1.5;
+    font-size: 13px;
+    opacity: 0.4;
+    margin-top: 5px;
+    font-family: "Crimson Pro", serif;
+    text-align: justify;
+}
 
 form{
-    padding: 35px;
     display: flex;
 }
 
@@ -43,11 +56,11 @@ form{
     padding:15px;
     border: none;
     border-radius: 7px;
-    font-size: 17px;
+    font-size: 16px;
     font-style: italic;
     font-family: "Crimson Pro", serif;
     color:#bf9000;
-    width: 80%;
+    width: 90%;
 }
 
 .submit-button{
@@ -84,6 +97,10 @@ form{
     color: #bf9000;
 }
 
+.hidden{
+    display: none;
+}
+
 footer {
     font-family: "Raleway", sans-serif;
     font-size: 13px;
@@ -102,7 +119,22 @@ a:hover {
     text-decoration: underline;
 }
 
+/* animation of the loading*/
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+}
 
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
 
 /* colors 
     --background-color: #fff6f2;  Creamy white
