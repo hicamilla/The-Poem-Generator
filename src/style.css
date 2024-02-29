@@ -1,51 +1,66 @@
+
 body{
-    background-color: #f8eae0;
-    color: #6d4c41;
+    background-color: #AC7D88;
 }
 
 .container{
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 600px;
+    margin: 30px auto;
+    display: block;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 03px 10px rgba(0, 0, 0, .2);
 }
 
 header {
-    margin-bottom: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    /*background-color: #f2dfdc;
+    border-radius: 12px;*/
 }
 
 h1 {
     font-family: "Raleway", sans-serif;
-    color: #6d4c41;
+    color: #FDF0D1;
     font-weight: 600;
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
     line-height: 1.5;
-    margin-bottom: 30px;
+    letter-spacing: 1.4px;
+    margin-bottom: 0px;
+    
 }
 
 h2{
-    font-size: 25px;
-    color: #b45f41;
-    font-family: "Crimson Pro", serif;
-    font-style: italic;
+    font-size: 23px;
+    color: #FDF0D1;
+    font-family: serif;
     font-optical-sizing: auto;
     font-weight: 500;
     text-align: center;
+    letter-spacing: 0.8px;
     line-height: 1.5;
+    margin-bottom: 70px;
+    
+    
 }
 /*text for the hint to the search*/
 .form-container{
-    padding: 40px;
+    padding: 20px;
+    background-color:#ed9494;
+    box-shadow: 0, 20px, 60px rgba(65, 50, 100, 0.08);
+    border-radius: 10px;
     margin-bottom: 30px;
+    display: block;
 }
 
 .hint{
     line-height: 1.5;
     font-size: 13px;
-    opacity: 0.4;
-    margin-top: 5px;
+    opacity: 0.5;
     font-family: "Crimson Pro", serif;
     text-align: justify;
+    margin-top: 10px;
 }
 
 form{
@@ -77,46 +92,51 @@ form{
 }
 
 .submit-button:hover {
-    background-color: #c26a67
+    background-color: #d45a59
 }
 
 .poem{
     font-size: 20px;
-    background-color: #be8c6835;
-    color: #7e645e;
+    background-color: #F1FADA;
+    color: #9AD0C2;
     font-family: "Crimson Pro", serif;
-    font-style: italic;
+    letter-spacing: 1px;
     line-height: 1.5;
-    border-left: 3px solid #b45f41;
+    border-left: 5px solid #b45f41;
     box-shadow: 0 4px 30px rgba(39, 33, 66, 0.03);
     border-radius: 15px;
     padding: 40px;
+    text-indent: 3%;
 }
 
 .poem strong{
     color: #bf9000;
 }
 
-.hidden{
+/*.hidden {
     display: none;
-}
+}*/
 
 footer {
+    border-top: 0.5px dashed #b45f41;
     font-family: "Raleway", sans-serif;
-    font-size: 13px;
+    font-size: 13.5px;
     font-weight: 400;
     color: #000000;
-    margin-top: 45px;
     text-align: center;
+    margin-top: 45px;
+    padding-top: 30px;
 }
 
 a {
     color: #bf9000;
     text-decoration: none;
+    border-bottom: 1px solid;
 }
         
 a:hover {
-    text-decoration: underline;
+    color:#b45f41;
+    
 }
 
 /* animation of the loading*/
@@ -144,3 +164,9 @@ a:hover {
     --link-hover-color: #7e5546; Darker brown
     --poem-color: #7e645e; Warm gray
     --footer-color: #d9a57e; Light peach
+
+        /* 
+            background-color: #E4E4E1;
+                background-image: radial-gradient(at top center, rgba(255, 255, 255, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%), linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(143, 152, 157, 0.60) 100%);
+                background-blend-mode: normal, multiply;
+                */
