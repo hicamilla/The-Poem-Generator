@@ -31,16 +31,17 @@ h1 {
 
 h2{
 
-    font-size: 23px;
+    font-size: 17px;
     color: #094de2;
     font-family: serif;
     font-optical-sizing: auto;
     font-weight: 500;
+    text-transform:uppercase;
     text-align: center;
     letter-spacing: 0.8px;
     line-height: 1.5;
-    margin-bottom: 90px;
-    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-top: 10px;
     
     
 }
@@ -56,11 +57,12 @@ h2{
 
 .hint{
     line-height: 1.5;
-    font-size: 13px;
+    font-size: 12px;
     opacity: 0.5;
     font-family: "Crimson Pro", serif;
     text-align: justify;
-    margin-top: 12px;
+    margin-top: 10px;
+    margin-left: 6px;
     color:#3b2c00;
 }
 
@@ -71,12 +73,14 @@ form{
 .instructions{
     padding:15px;
     border: none;
-    border-radius: 7px;
+    border-radius: 20px;
     font-size: 16px;
     font-style: italic;
     font-family: "Crimson Pro", serif;
-    color:#bf9000;
+    color:#0015c1;
     width: 90%;
+    height:30px;
+    margin-top: 10px;
 }
 
 .submit-button{
@@ -86,10 +90,11 @@ form{
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     border: none;
-    border-radius: 7px;
+    border-radius: 20px;
     cursor: pointer;
     margin-left: 11px;
     padding: 15px 26px;
+    margin-top: 10px;
 }
 
 .submit-button:hover {
@@ -111,7 +116,7 @@ form{
 }
 
 .poem strong{
-    color: #f7bd0c;
+    color: #d81973;
 }
 
 /*.hidden {
@@ -121,7 +126,7 @@ form{
 footer {
     border-top: 0.5px dashed #b45f41;
     font-family: "Raleway", sans-serif;
-    font-size: 13.5px;
+    font-size: 15px;
     font-weight: 400;
     color: #0015c1;
     text-align: center;
