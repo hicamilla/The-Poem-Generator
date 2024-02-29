@@ -119,9 +119,9 @@ form{
     color: #d81973;
 }
 
-/*.hidden {
+.hidden {
     display: none;
-}*/
+}
 
 footer {
     border-top: 0.5px dashed #b45f41;
