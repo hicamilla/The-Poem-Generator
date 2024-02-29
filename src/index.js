@@ -22,7 +22,7 @@ function generatePoem(event) {
 
     let poemElement = document.querySelector("#poem");
     poemElement.classList.remove("hidden");
-    poemElement.innerHTML = `<div class="blink">Generating a poem for your...</div>`;
+    poemElement.innerHTML = `<div class="blink">Generating amazing words for your...</div>`;
     console.log("Generating poem");
     console.log(`Promt: ${prompt}`);
     console.log(`Context: ${context}`);
